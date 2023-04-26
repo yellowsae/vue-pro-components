@@ -1,0 +1,39 @@
+{
+  "name": "vue-pro-components",
+  "version": "0.0.0",
+  "description": "pro components based on vue3",
+  "keywords": [
+    "components",
+    "vue3",
+    "vite",
+    "typescript",
+    "unplugin",
+    "on",
+    "demand",
+    "pro"
+  ],
+  "author": "yellowsea <yunhai0644@163.com>",
+  "homepage": "https://github.com/yellowsae/vue-pro-components#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://mirrors.cloud.tencent.com/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yellowsae/vue-pro-components.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/vue-pro-components.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/yellowsae/vue-pro-components/issues"
+  }
+}
