@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import { Icon } from "vue-pro-components"
 import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
@@ -10,6 +12,12 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <Icon></Icon>
+    <Icon></Icon>
+    <Icon></Icon>
+    <Icon></Icon>
+    <Icon></Icon>
+    <Icon></Icon>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>

@@ -10,3 +10,10 @@
 
 
 // 继续测试版本
+
+import Icon from "./src/icon"
+
+
+export {
+  Icon
+} 

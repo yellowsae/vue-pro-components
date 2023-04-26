@@ -6,7 +6,12 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap -- --hoist",
+    "playground:dev": "lerna run --scope playground dev"
+  },
   "devDependencies": {
-    "lerna": "^6.6.1"
+    "lerna": "^6.6.1",
+    "vue": "3.2.0"
   }
 }
