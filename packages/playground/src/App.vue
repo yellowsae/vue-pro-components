@@ -20,6 +20,10 @@ import HelloWorld from './components/HelloWorld.vue'
     <Icon></Icon>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <div>
+    <i class="iconfont icon-cuowu" style="font-size: 10rem;"></i>
+    <i class="iconfont icon-bolanggu" style="font-size: 10rem;"></i>
+  </div>
 </template>
 
 <style scoped>
