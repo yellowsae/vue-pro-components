@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
     <Icon></Icon>
-    <Icon></Icon>
+    <Icon icon="这是 ICON" size="50"></Icon>
     <Icon></Icon>
     <Icon></Icon>
     <Icon></Icon>
