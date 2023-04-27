@@ -15,7 +15,7 @@
   "author": "yellowsea <yunhai0644@163.com>",
   "homepage": "https://github.com/yellowsae/vue-pro-components#readme",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -35,5 +35,8 @@
   },
   "bugs": {
     "url": "https://github.com/yellowsae/vue-pro-components/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
   }
 }
