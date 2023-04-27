@@ -12,8 +12,13 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    <Icon icon="cuowu" size="50"></Icon>
+    <Icon icon="cuowu" :size="20"></Icon>
     <Icon icon="bolanggu" size="50"></Icon>
+    <Icon icon="konglong" size="50"></Icon>
+    <Icon icon="muqin" size="50" color="#3ebbff"></Icon>
+    <Icon icon="jimu" size="50" color="#42b883aa"></Icon>
+    <Icon icon="shouyaoling" size="50"></Icon>
+    <Icon icon="nanying" size="50"></Icon>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
