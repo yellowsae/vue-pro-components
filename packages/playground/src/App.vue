@@ -14,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
     <Icon></Icon>
     <Icon icon="这是 ICON" size="50"></Icon>
-    <Icon></Icon>
+    <Icon icon="这是 icon ，在 vue-pro-components 中导出的组件， 今天加了一个 size 参数，传入组件改变 icon 的大小" size="40"></Icon>
     <Icon></Icon>
     <Icon></Icon>
     <Icon></Icon>
