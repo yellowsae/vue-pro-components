@@ -1,7 +1,6 @@
 <template>
   <i class="icon-style" :style="{
-    height: size + 'px',
-    width: size + 'px',
+    fontSize: size + 'px'
   }">{{ icon }}</i>
 </template>
 
