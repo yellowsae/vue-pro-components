@@ -1,42 +1,14 @@
-<template>
-  <i class="icon-style" :style="{
-    fontSize: size + 'px'
-  }">{{ icon }}</i>
-</template>
+<script lang="ts" setup>
+import { props } from './props';
 
-
-<script>
-
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  name: 'Icon',
-  props: {
-    icon: {
-      type: String,
-      default: '默认图标'
-    },
-    size: {
-      type: Number,
-      default: 16
-    }
-  }
-})
+defineProps(props);
 
 </script>
 
 
-<style >
-  .icon-style {
-    display: inline-block;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    font-size: inherit;
-    line-height: 1;
-    text-transform: none;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-</style>
+<template>
+  <i
+    class="iconfont"
+    :class="`${iconPrefix}${icon}`" 
+    :style="{fontSize: `${size}px`, color: `${color}`}"></i>
+</template>

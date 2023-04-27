@@ -3943,11 +3943,11 @@ pkg-dir@^4.2.0:
     find-up "^4.0.0"
 
 "playground@file:D:\\gitSourceCode\\vue-pro-components\\packages\\playground":
-  version "1.1.0"
+  version "1.2.0"
   resolved "file:packages/playground"
   dependencies:
     vue "^3.2.47"
-    vue-pro-components "^2.0.0"
+    vue-pro-components "^2.1.0"
 
 postcss-selector-parser@^6.0.10:
   version "6.0.11"
@@ -4879,8 +4879,8 @@ vite@^4.0.0, vite@^4.3.2:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vue-pro-components@^2.0.0, "vue-pro-components@file:D:\\gitSourceCode\\vue-pro-components\\packages\\vue-pro-components":
-  version "2.0.0"
+vue-pro-components@^2.1.0, "vue-pro-components@file:D:\\gitSourceCode\\vue-pro-components\\packages\\vue-pro-components":
+  version "2.1.0"
   resolved "file:packages/vue-pro-components"
 
 vue-template-compiler@^2.7.14:
