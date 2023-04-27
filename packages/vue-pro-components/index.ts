@@ -11,7 +11,7 @@
 
 // 继续测试版本
 
-import Icon from "./src/icon"
+import { Icon } from "./src/icon"
 
 
 export {

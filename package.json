@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap -- --hoist",
+    "lernaCreate": "lerna create",
     "playground:dev": "lerna run --scope playground dev"
   },
   "devDependencies": {
