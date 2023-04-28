@@ -12,6 +12,9 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <svg style="width: 30px; height: 50px;">
+      <use href="iconfont konglong"></use>
+    </svg>
     <Icon icon="cuowu" :size="20"></Icon>
     <Icon icon="bolanggu" size="50"></Icon>
     <Icon icon="konglong" size="50"></Icon>
